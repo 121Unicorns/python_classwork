@@ -24,6 +24,7 @@ print("x:\n{}".format(x))
 
 
 get_ipython().run_line_magic('matplotlib', 'inline')
+
 import matplotlib.pyplot as plt
 
 x = np.linspace(-10, 10, 100)
